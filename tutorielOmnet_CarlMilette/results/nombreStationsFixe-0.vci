@@ -1,0 +1,310 @@
+file 6070272 1473690551                                         
+version 2
+run nombreStationsFixe-0-20160912-10:28:27-9177
+attr configname nombreStationsFixe
+attr datetime 20160912-10:28:27
+attr experiment nombreStationsFixe
+attr inifile tutorielOmnet.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network TutorielOmnet
+attr processid 9177
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 17  TutorielOmnet.station[0].udpApp[0].udpOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 12  TutorielOmnet.station[0].udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 19  TutorielOmnet.station[0].udp.ipOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 21  TutorielOmnet.station[0].networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 9  TutorielOmnet.station[0].networkLayer.ifOut[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 35  TutorielOmnet.station[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 31  TutorielOmnet.station[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 0  TutorielOmnet.station[0].ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 26  TutorielOmnet.station[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 100  TutorielOmnet.etherSwitch.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 101  TutorielOmnet.etherSwitch.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 115  TutorielOmnet.etherSwitch.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 2  TutorielOmnet.etherSwitch.ethg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 110  TutorielOmnet.etherSwitch.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 76  TutorielOmnet.router.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 77  TutorielOmnet.router.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 85  TutorielOmnet.router.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 71  TutorielOmnet.router.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 84  TutorielOmnet.router.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 80  TutorielOmnet.router.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 3  TutorielOmnet.router.ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 75  TutorielOmnet.router.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 111  TutorielOmnet.etherSwitch.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 112  TutorielOmnet.etherSwitch.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 104  TutorielOmnet.etherSwitch.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 1  TutorielOmnet.etherSwitch.ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 99  TutorielOmnet.etherSwitch.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 27  TutorielOmnet.station[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 28  TutorielOmnet.station[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 36  TutorielOmnet.station[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 8  TutorielOmnet.station[0].eth[0].upperLayerOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 70  TutorielOmnet.router.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 96  TutorielOmnet.router.eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 92  TutorielOmnet.router.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 4  TutorielOmnet.router.ethg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 87  TutorielOmnet.router.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 59  TutorielOmnet.server.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 60  TutorielOmnet.server.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 68  TutorielOmnet.server.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 40  TutorielOmnet.server.eth[0].upperLayerOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 54  TutorielOmnet.server.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 41  TutorielOmnet.server.networkLayer.ifOut[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 67  TutorielOmnet.server.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 63  TutorielOmnet.server.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 5  TutorielOmnet.server.ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 58  TutorielOmnet.server.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 88  TutorielOmnet.router.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 89  TutorielOmnet.router.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 97  TutorielOmnet.router.eth[1].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 52  TutorielOmnet.server.networkLayer.transportOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 45  TutorielOmnet.server.udp  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 46  TutorielOmnet.server.udp  passedUpPk:vector(count)  ETV
+attr interpolationmode  none
+attr title  "packets passed up, vector(count)"
+vector 50  TutorielOmnet.server.udp.appOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 42  TutorielOmnet.server.udpApp[0]  reqStreamBytes:vector  ETV
+attr interpolationmode  none
+attr title  "requested stream bytes, vector"
+vector 43  TutorielOmnet.server.udpApp[0]  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 49  TutorielOmnet.server.udpApp[0].udpOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 44  TutorielOmnet.server.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 51  TutorielOmnet.server.udp.ipOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 20  TutorielOmnet.station[0].networkLayer.transportOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 13  TutorielOmnet.station[0].udp  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 14  TutorielOmnet.station[0].udp  passedUpPk:vector(count)  ETV
+attr interpolationmode  none
+attr title  "packets passed up, vector(count)"
+vector 18  TutorielOmnet.station[0].udp.appOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 10  TutorielOmnet.station[0].udpApp[0]  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 11  TutorielOmnet.station[0].udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+0	11313 43 16 46 1.5 1.5002306 2 576 1151.734410045 1727.734410045 1658268.1512818
+1	11356 243905 37 160106 1.50017295 19.999990265414 6156 575.90039802616 197644.8166149 1074896085.0449 1.9440435088573e+14
+2	255261 64 21 52 1.50005765 1.50028825 2 575.96679551424 1151.6680316899 1727.6348272041 1658077.0047513
+3	255325 243884 31 160100 1.5001153 19.999932615414 6156 575.93359485651 197645.40093608 1074904847.592 1.9440718317828e+14
+4	499209 62 61 78 1.5003459 1.5004612 2 575.80083049273 1151.4689425237 1727.2697730164 1657427.3219928
+5	499271 243930 70 160094 1.50040355 19.999874965414 6156 575.76764896526 197645.98526071 1074913610.1894 1.9441001556895e+14
+8	743201 243827 42 160085 1.5002306 19.998949982606 6155 223.94835750876 120057.33652778 652483628.41419 71656378506064
+9	987028 44 14 44 1.5 1.5002306 2 224 447.89671501752 671.89671501752 250787.46732348
+10	987072 168973 110 160088 1.5007134 19.998949982606 6154 0 80 120284 3505222
+11	1156045 220348 110 160088 1.5007134 19.998949982606 6154 0.00017295 0.00032175 1.156799099658 0.00022076814465029
+12	1376393 12 12 12 1.5 1.5 1 8 8 8 64
+13	1376405 170351 109 160087 1.5007134 19.998949982606 6154 8 88 169516 5823622
+14	1546756 181861 109 160087 1.5007134 19.998949982606 6154 1 6154 18938935 77706450305
+17	1728617 12 10 10 1.5 1.5 1 0 0 0 0
+18	1728629 250021 109 160087 1.5007134 19.998949982606 6154 215.84601545258 49349.939399731 268074837.34275 12093350540496
+19	1978650 13 12 12 1.5 1.5 1 64 64 64 4096
+20	1978663 249961 108 160086 1.5007134 19.998949982606 6154 279.80039040149 69548.770636867 377842792.59264 24028540715166
+21	2228624 12 13 13 1.5 1.5 1 1 1 1 1
+26	2228636 38 18 49 1.5000576 1.5002882 2 64 64 128 8192
+27	2228674 170792 41 160084 1.5002306 19.998949982606 6155 64 126 432447 30959689
+28	2399466 170792 41 160084 1.5002306 19.998949982606 6155 64 126 432447 30959689
+31	2570258 32 16 46 1.5 1.5002306 2 64 64 128 8192
+35	2570290 32 15 45 1.5 1.5002306 2 28 28 56 1568
+36	2570322 170681 42 160085 1.5002306 19.998949982606 6155 28 108 292624 15066646
+40	2741003 66 65 82 1.50040355 1.50051885 2 223.90964126427 447.76767574144 671.67731700571 250631.41888999
+41	2741069 250066 68 160092 1.50040355 19.999874965414 6156 223.90964126427 120066.41089508 652619645.47732 71673924366182
+42	2991135 25 85 85 1.50051885 1.50051885 1 1000000 1000000 1000000 1000000000000
+43	2991160 169003 85 160090 1.50051885 19.999874965414 6155 0 80 120292 3505286
+44	3160163 170382 86 160091 1.50051885 19.999874965414 6155 8 88 169532 5823878
+45	3330545 19 84 84 1.50051885 1.50051885 1 8 8 8 64
+46	3330564 19 84 84 1.50051885 1.50051885 1 1 1 1 1
+49	3330583 250054 85 160090 1.50051885 19.999874965414 6155 215.8879865182 49350.880541893 268130746.25623 12096315029820
+50	3580637 19 84 84 1.50051885 1.50051885 1 0 0 0 0
+51	3580656 250078 86 160091 1.50051885 19.999874965414 6155 279.8547973384 69552.035713333 377921582.4948 24034428254957
+52	3830734 33 83 83 1.50051885 1.50051885 1 63.966810820206 63.966810820206 63.966810820206 4091.752886508
+54	3830767 19 67 67 1.50040355 1.50040355 1 1 1 1 1
+58	3830786 170836 72 160095 1.50046115 19.999932565414 6156 64 126 432511 30963785
+59	4001622 40 64 81 1.50040355 1.50051885 2 64 64 128 8192
+60	4001662 40 64 81 1.50040355 1.50051885 2 64 64 128 8192
+63	4001702 170826 70 160094 1.50040355 19.999874965414 6156 64 126 432511 30963785
+67	4172528 170714 69 160093 1.50040355 19.999874965414 6156 28 108 292660 15067942
+68	4343242 40 65 82 1.50040355 1.50051885 2 28 28 56 1568
+70	4343282 18 58 58 1.5003459 1.5003459 1 1 1 1 1
+71	4343300 18 28 28 1.5001153 1.5001153 1 1 1 1 1
+75	4343318 170827 34 160103 1.5001729 19.999990215414 6156 64 126 432511 30963785
+76	4514145 38 25 56 1.5001153 1.5003459 2 64 64 128 8192
+77	4514183 38 25 56 1.5001153 1.5003459 2 64 64 128 8192
+80	4514221 170835 31 160100 1.5001153 19.999932615414 6156 64 126 432511 30963785
+84	4685056 170724 30 160099 1.5001153 19.999932615414 6156 28 108 292660 15067942
+85	4855780 38 26 57 1.5001153 1.5003459 2 28 28 56 1568
+87	4855818 38 63 80 1.5004035 1.5005188 2 64 64 128 8192
+88	4855856 170834 73 160096 1.5004612 19.999932615414 6156 64 126 432511 30963785
+89	5026690 170834 73 160096 1.5004612 19.999932615414 6156 64 126 432511 30963785
+92	5197524 38 61 78 1.5003459 1.5004612 2 64 64 128 8192
+96	5197562 38 60 77 1.5003459 1.5004612 2 28 28 56 1568
+97	5197600 170723 74 160097 1.5004612 19.999932615414 6156 28 108 292660 15067942
+99	5368323 170823 40 160109 1.50023055 20.000047865414 6156 64 126 432511 30963785
+100	5539146 42 19 50 1.50005765 1.50028825 2 64 64 128 8192
+101	5539188 42 19 50 1.50005765 1.50028825 2 64 64 128 8192
+104	5539230 176986 37 160106 1.50017295 19.999990265414 6156 64 126 432511 30963785
+110	5716216 42 24 55 1.50011525 1.50034585 2 64 64 128 8192
+111	5716258 176986 35 160104 1.50017295 19.999990265414 6156 64 126 432511 30963785
+112	5893244 176986 35 160104 1.50017295 19.999990265414 6156 64 126 432511 30963785
+115	6070230 42 21 52 1.50005765 1.50028825 2 64 64 128 8192

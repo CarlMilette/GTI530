@@ -1,0 +1,795 @@
+version 2
+run nombreStationsFixe-0-20160912-10:28:27-9177
+attr configname nombreStationsFixe
+attr datetime 20160912-10:28:27
+attr experiment nombreStationsFixe
+attr inifile tutorielOmnet.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network TutorielOmnet
+attr processid 9177
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar TutorielOmnet.station[0].networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TutorielOmnet.station[0].networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar TutorielOmnet.station[0].networkLayer.arp 	initiatedARPResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar TutorielOmnet.station[0].networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar TutorielOmnet.station[0].networkLayer.arp 	sentReq:count 	1
+attr title  "ARP request sent, count"
+scalar TutorielOmnet.station[0].lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.station[0].lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.station[0].lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar TutorielOmnet.station[0].lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.station[0].lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.station[0].lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.station[0].eth[0].mac 	full-duplex 	1
+scalar TutorielOmnet.station[0].eth[0].mac 	"frames/sec sent" 	0.099999760673503
+scalar TutorielOmnet.station[0].eth[0].mac 	"frames/sec rcvd" 	307.7492634727
+scalar TutorielOmnet.station[0].eth[0].mac 	"bits/sec sent" 	51.199877464833
+scalar TutorielOmnet.station[0].eth[0].mac 	"bits/sec rcvd" 	172978.3860159
+scalar TutorielOmnet.station[0].eth[0].mac 	"rx channel idle (%)" 	98.073256611788
+scalar TutorielOmnet.station[0].eth[0].mac 	"rx channel utilization (%)" 	1.9267433882115
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPkFromHL:count 	2
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPkFromHL:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.station[0].eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPkOk:count 	6155
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	rxPkOk:sum(packetBytes) 	432447
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	txPk:count 	2
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	txPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].mac 	passedUpPk:count 	6155
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.station[0].eth[0].mac 	passedUpPk:sum(packetBytes) 	432447
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TutorielOmnet.station[0].eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TutorielOmnet.station[0].eth[0].encap 	decapPk:count 	6155
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TutorielOmnet.station[0].eth[0].encap 	decapPk:sum(packetBytes) 	292624
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TutorielOmnet.station[0].eth[0].encap 	encapPk:count 	2
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TutorielOmnet.station[0].eth[0].encap 	encapPk:sum(packetBytes) 	56
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TutorielOmnet.station[0].udpApp[0] 	rcvdPk:count 	6154
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TutorielOmnet.station[0].udpApp[0] 	rcvdPk:sum(packetBytes) 	120284
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic TutorielOmnet.station[0].udpApp[0] 	endToEndDelay:histogram
+field count 6154
+field mean 0.00018797515431556
+field stddev 2.3224031963698e-05
+field sum 1.156799099658
+field sqrsum 0.00022076814465029
+field min 0.00017295
+field max 0.00032175
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	0.00011415	0
+bin	0.00012199	0
+bin	0.00012983	0
+bin	0.00013767	0
+bin	0.00014551	0
+bin	0.00015335	0
+bin	0.00016119	0
+bin	0.00016903	3424
+bin	0.00017687	457
+bin	0.00018471	532
+bin	0.00019255	344
+bin	0.00020039	308
+bin	0.00020823	268
+bin	0.00021607	262
+bin	0.00022391	150
+bin	0.00023175	102
+bin	0.00023959	118
+bin	0.00024743	57
+bin	0.00025527	48
+bin	0.00026311	23
+bin	0.00027095	31
+bin	0.00027879	14
+bin	0.00028663	10
+bin	0.00029447	3
+bin	0.00030231	1
+bin	0.00031015	0
+bin	0.00031799	2
+bin	0.00032583	0
+bin	0.00033367	0
+bin	0.00034151	0
+bin	0.00034935	0
+scalar TutorielOmnet.station[0].udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar TutorielOmnet.station[0].udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar TutorielOmnet.station[0].udp 	passedUpPk:count 	6154
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar TutorielOmnet.station[0].udp 	rcvdPk:count 	6154
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TutorielOmnet.station[0].udp 	rcvdPk:sum(packetBytes) 	169516
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar TutorielOmnet.station[0].udp 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TutorielOmnet.station[0].udp 	sentPk:sum(packetBytes) 	8
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TutorielOmnet.server.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TutorielOmnet.server.networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar TutorielOmnet.server.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TutorielOmnet.server.networkLayer.arp 	sentReply:count 	1
+attr title  "ARP replies sent, count"
+scalar TutorielOmnet.server.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TutorielOmnet.server.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.server.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.server.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar TutorielOmnet.server.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.server.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.server.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.server.eth[0].mac 	full-duplex 	1
+scalar TutorielOmnet.server.eth[0].mac 	"frames/sec sent" 	307.79926335304
+scalar TutorielOmnet.server.eth[0].mac 	"frames/sec rcvd" 	0.099999760673503
+scalar TutorielOmnet.server.eth[0].mac 	"bits/sec sent" 	173003.98595463
+scalar TutorielOmnet.server.eth[0].mac 	"bits/sec rcvd" 	51.199877464833
+scalar TutorielOmnet.server.eth[0].mac 	"rx channel idle (%)" 	99.999424001379
+scalar TutorielOmnet.server.eth[0].mac 	"rx channel utilization (%)" 	0.00057599862147938
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.server.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	rxPkFromHL:count 	6156
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.server.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.server.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.server.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.server.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.server.eth[0].mac 	rxPkOk:count 	2
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.server.eth[0].mac 	rxPkOk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	txPk:count 	6156
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.server.eth[0].mac 	txPk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].mac 	passedUpPk:count 	2
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.server.eth[0].mac 	passedUpPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TutorielOmnet.server.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TutorielOmnet.server.eth[0].encap 	decapPk:count 	2
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TutorielOmnet.server.eth[0].encap 	decapPk:sum(packetBytes) 	56
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TutorielOmnet.server.eth[0].encap 	encapPk:count 	6156
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TutorielOmnet.server.eth[0].encap 	encapPk:sum(packetBytes) 	292660
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TutorielOmnet.server.udpApp[0] 	reqStreamBytes:count 	1
+attr interpolationmode  none
+attr title  "requested stream bytes, count"
+scalar TutorielOmnet.server.udpApp[0] 	reqStreamBytes:sum 	1000000
+attr interpolationmode  none
+attr title  "requested stream bytes, sum"
+scalar TutorielOmnet.server.udpApp[0] 	sentPk:count 	6155
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TutorielOmnet.server.udpApp[0] 	sentPk:sum(packetBytes) 	120292
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TutorielOmnet.server.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar TutorielOmnet.server.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar TutorielOmnet.server.udp 	passedUpPk:count 	1
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar TutorielOmnet.server.udp 	rcvdPk:count 	1
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TutorielOmnet.server.udp 	rcvdPk:sum(packetBytes) 	8
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar TutorielOmnet.server.udp 	sentPk:count 	6155
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TutorielOmnet.server.udp 	sentPk:sum(packetBytes) 	169532
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TutorielOmnet.router.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TutorielOmnet.router.networkLayer.arp 	completedARPResolution:count 	2
+attr title  "ARP completed resolutions, count"
+scalar TutorielOmnet.router.networkLayer.arp 	initiatedARPResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar TutorielOmnet.router.networkLayer.arp 	sentReply:count 	1
+attr title  "ARP replies sent, count"
+scalar TutorielOmnet.router.networkLayer.arp 	sentReq:count 	1
+attr title  "ARP request sent, count"
+scalar TutorielOmnet.router.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.router.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.router.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar TutorielOmnet.router.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.router.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.router.eth[0].mac 	full-duplex 	1
+scalar TutorielOmnet.router.eth[0].mac 	"frames/sec sent" 	307.79926335304
+scalar TutorielOmnet.router.eth[0].mac 	"frames/sec rcvd" 	0.099999760673503
+scalar TutorielOmnet.router.eth[0].mac 	"bits/sec sent" 	173003.98595463
+scalar TutorielOmnet.router.eth[0].mac 	"bits/sec rcvd" 	51.199877464833
+scalar TutorielOmnet.router.eth[0].mac 	"rx channel idle (%)" 	99.999424001379
+scalar TutorielOmnet.router.eth[0].mac 	"rx channel utilization (%)" 	0.00057599862147938
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.router.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	rxPkFromHL:count 	6156
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.router.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.router.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.router.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.router.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.router.eth[0].mac 	rxPkOk:count 	2
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.router.eth[0].mac 	rxPkOk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	txPk:count 	6156
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.router.eth[0].mac 	txPk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].mac 	passedUpPk:count 	2
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.router.eth[0].mac 	passedUpPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TutorielOmnet.router.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TutorielOmnet.router.eth[0].encap 	decapPk:count 	2
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TutorielOmnet.router.eth[0].encap 	decapPk:sum(packetBytes) 	56
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[0].encap 	encapPk:count 	6156
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TutorielOmnet.router.eth[0].encap 	encapPk:sum(packetBytes) 	292660
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.router.eth[1].mac 	full-duplex 	1
+scalar TutorielOmnet.router.eth[1].mac 	"frames/sec sent" 	0.099999760673503
+scalar TutorielOmnet.router.eth[1].mac 	"frames/sec rcvd" 	307.79926335304
+scalar TutorielOmnet.router.eth[1].mac 	"bits/sec sent" 	51.199877464833
+scalar TutorielOmnet.router.eth[1].mac 	"bits/sec rcvd" 	173003.98595463
+scalar TutorielOmnet.router.eth[1].mac 	"rx channel idle (%)" 	98.072968612478
+scalar TutorielOmnet.router.eth[1].mac 	"rx channel utilization (%)" 	1.9270313875222
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.router.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	rxPkFromHL:count 	2
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.router.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.router.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.router.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.router.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.router.eth[1].mac 	rxPkOk:count 	6156
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.router.eth[1].mac 	rxPkOk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	txPk:count 	2
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.router.eth[1].mac 	txPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].mac 	passedUpPk:count 	6156
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.router.eth[1].mac 	passedUpPk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TutorielOmnet.router.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TutorielOmnet.router.eth[1].encap 	decapPk:count 	6156
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TutorielOmnet.router.eth[1].encap 	decapPk:sum(packetBytes) 	292660
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TutorielOmnet.router.eth[1].encap 	encapPk:count 	2
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TutorielOmnet.router.eth[1].encap 	encapPk:sum(packetBytes) 	56
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of received BPDUs from STP module" 	0
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of received frames from network (including BPDUs)" 	6158
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of dropped frames (including BPDUs)" 	0
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of delivered BPDUs to the STP module" 	0
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of dispatched BPDU frames to the network" 	0
+scalar TutorielOmnet.etherSwitch.relayUnit 	"number of dispatched non-BDPU frames to the network" 	6158
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	full-duplex 	1
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"frames/sec sent" 	307.79926335304
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"frames/sec rcvd" 	0.099999760673503
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"bits/sec sent" 	173003.98595463
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"bits/sec rcvd" 	51.199877464833
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"rx channel idle (%)" 	99.999424001379
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"rx channel utilization (%)" 	0.00057599862147938
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	"rx channel collision (%)" 	0
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	collisions 	0
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	backoffs 	0
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPkFromHL:count 	6156
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPkOk:count 	2
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	rxPkOk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	txPk:count 	6156
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	txPk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	passedUpPk:count 	2
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.etherSwitch.eth[0].mac 	passedUpPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"simulated time" 	20.000047865414
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	full-duplex 	1
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"frames/sec sent" 	0.099999760673503
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"frames/sec rcvd" 	307.79926335304
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"bits/sec sent" 	51.199877464833
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"bits/sec rcvd" 	173003.98595463
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"rx channel idle (%)" 	98.072968612478
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"rx channel utilization (%)" 	1.9270313875222
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	"rx channel collision (%)" 	0
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	collisions 	0
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	backoffs 	0
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPkFromHL:count 	2
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPkOk:count 	6156
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	rxPkOk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	txPk:count 	2
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	txPk:sum(packetBytes) 	128
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	passedUpPk:count 	6156
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TutorielOmnet.etherSwitch.eth[1].mac 	passedUpPk:sum(packetBytes) 	432511
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"

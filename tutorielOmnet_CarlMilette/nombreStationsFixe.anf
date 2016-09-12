@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/tutorielOmnet_CarlMilette/results/nombreStationsFixe-*.vec"/>
+    <inputs name="/tutorielOmnet_CarlMilette/results/nombreStationsFixe-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="debits1_scenario1">
+      <items xsi:type="scave:Add" filterPattern="file(/tutorielOmnet_CarlMilette/results/nombreStationsFixe-0.vec) AND attr:configname(nombreStationsFixe) AND attr:runnumber(0) AND module(TutorielOmnet.server.ethg$o[0].channel) AND name(throughput:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/tutorielOmnet_CarlMilette/results/nombreStationsFixe-0.vec) AND attr:configname(nombreStationsFixe) AND attr:runnumber(0) AND module(TutorielOmnet.station[0].eth[0].upperLayerOut.channel) AND name(throughput:vector)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Debits 1 serveur et station scenario 1" lineNameFormat="">
+        <properties name="Graph.Title" value="debits serveur et station"/>
+        <properties name="X.Axis.Title" value="temps (s)"/>
+        <properties name="Y.Axis.Title" value="Debit (bps)"/>
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Line.Name/TutorielOmnet.server.ethg$o[0].channel" value="Debit sortant de eth[0] du serveur"/>
+        <properties name="Line.Name/TutorielOmnet.station[0].eth[0].upperLayerOut.channel" value="Debit entrant dans eth[0] de la station"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.2"/>
+  </chartSheets>
+</scave:Analysis>
