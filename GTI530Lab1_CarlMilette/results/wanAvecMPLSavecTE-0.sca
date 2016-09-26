@@ -1,0 +1,3343 @@
+version 2
+run wanAvecMPLSavecTE-0-20160926-11:30:28-19214
+attr configname wanAvecMPLSavecTE
+attr datetime 20160926-11:30:28
+attr experiment wanAvecMPLSavecTE
+attr inifile wanMPLS.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network wanAvecMPLSavecTE
+attr processid 19214
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar wanAvecMPLSavecTE.montrealServer.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.montrealServer.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.montrealServer.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.montrealServer.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.montrealServer.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealServer.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	rxPkOk:count 	5884
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	794340
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	passedUpPk:count 	5884
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	753152
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.montrealServer.ppp[0].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.udpApp[0] 	rcvdPk:count 	5884
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar wanAvecMPLSavecTE.montrealServer.udpApp[0] 	rcvdPk:sum(packetBytes) 	588400
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.montrealServer.udpApp[0] 	endToEndDelay:histogram
+field count 5884
+field mean 1.713027489643
+field stddev 0.11687759245271
+field sum 10079.453749059
+field sqrsum 17346.74531895
+field min 0.190737830059
+field max 1.735516872553
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.358651691188	0
+bin	-0.28539975502173	0
+bin	-0.21214781885547	0
+bin	-0.1388958826892	0
+bin	-0.065643946522933	0
+bin	0.0076079896433333	0
+bin	0.0808599258096	0
+bin	0.15411186197587	3
+bin	0.22736379814213	0
+bin	0.3006157343084	0
+bin	0.37386767047467	2
+bin	0.44711960664093	6
+bin	0.5203715428072	5
+bin	0.59362347897347	5
+bin	0.66687541513973	8
+bin	0.740127351306	10
+bin	0.81337928747227	6
+bin	0.88663122363853	9
+bin	0.9598831598048	10
+bin	1.0331350959711	10
+bin	1.1063870321373	11
+bin	1.1796389683036	9
+bin	1.2528909044699	11
+bin	1.3261428406361	9
+bin	1.3993947768024	10
+bin	1.4726467129687	10
+bin	1.5458986491349	11
+bin	1.6191505853012	99
+bin	1.6924025214675	5640
+bin	1.7656544576337	0
+bin	1.8389063938	0
+scalar wanAvecMPLSavecTE.montrealServer.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	passedUpPk:count 	5884
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	rcvdPk:count 	5884
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	rcvdPk:sum(packetBytes) 	635472
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar wanAvecMPLSavecTE.montrealServer.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.networkLayer.arp 	sentReply:count 	1
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"simulated time" 	100
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	full-duplex 	1
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"frames/sec sent" 	0.01
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"frames/sec rcvd" 	100
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"bits/sec sent" 	5.12
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"bits/sec rcvd" 	116793.44
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"rx channel idle (%)" 	98.7680656
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	"rx channel utilization (%)" 	1.2319344
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPkFromHL:count 	1
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPkOk:count 	10000
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	rxPkOk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	txPk:count 	1
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	txPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	passedUpPk:count 	10000
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].mac 	passedUpPk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	decapPk:count 	10000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	decapPk:sum(packetBytes) 	1279900
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	encapPk:count 	1
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.eth[0].encap 	encapPk:sum(packetBytes) 	28
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	queueingTime:histogram
+field count 9999
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	9999
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	rcvdPk:count 	9999
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].queue 	rcvdPk:sum(packetBytes) 	1279872
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	txState:timeavg 	0.01079892
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	rcvdPkFromHL:count 	9999
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	1279872
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	txPk:count 	9999
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverRouter.ppp[0].ppp 	txPk:sum(packetBytes) 	1349865
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].networkLayer.arp 	initiatedARPResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].networkLayer.arp 	sentReq:count 	1
+attr title  "ARP request sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"simulated time" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	full-duplex 	1
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"frames/sec sent" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"frames/sec rcvd" 	0.01
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"bits/sec sent" 	116793.44
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"bits/sec rcvd" 	5.12
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"rx channel idle (%)" 	99.9999424
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	"rx channel utilization (%)" 	5.76e-05
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPkFromHL:count 	10000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPkOk:count 	1
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	rxPkOk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	txPk:count 	10000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	txPk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	passedUpPk:count 	1
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].mac 	passedUpPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	decapPk:count 	1
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	decapPk:sum(packetBytes) 	28
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	encapPk:count 	10000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].eth[0].encap 	encapPk:sum(packetBytes) 	1279900
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	"packets sent" 	10000
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	"packets received" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	rcvdPkLifetime:stats
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "received packet lifetime, stats"
+attr unit  s
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	sentPk:count 	10000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udpApp[0] 	sentPk:sum(packetBytes) 	1000000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	sentPk:count 	9999
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.staSwitch[0].udp 	sentPk:sum(packetBytes) 	1079892
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of received BPDUs from STP module" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of received frames from network (including BPDUs)" 	10001
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of dropped frames (including BPDUs)" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of delivered BPDUs to the STP module" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of dispatched BPDU frames to the network" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.relayUnit 	"number of dispatched non-BDPU frames to the network" 	10001
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"simulated time" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	full-duplex 	1
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"frames/sec sent" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"frames/sec rcvd" 	0.01
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"bits/sec sent" 	116793.44
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"bits/sec rcvd" 	5.12
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"rx channel idle (%)" 	99.9999424
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"rx channel utilization (%)" 	5.76e-05
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	"rx channel collision (%)" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	collisions 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	backoffs 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPkFromHL:count 	10000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPkOk:count 	1
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	rxPkOk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	txPk:count 	10000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	txPk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	passedUpPk:count 	1
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[0].mac 	passedUpPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"simulated time" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	full-duplex 	1
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"frames/sec sent" 	0.01
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"frames/sec rcvd" 	100
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"bits/sec sent" 	5.12
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"bits/sec rcvd" 	116793.44
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"rx channel idle (%)" 	98.7680656
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"rx channel utilization (%)" 	1.2319344
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	"rx channel collision (%)" 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	collisions 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	backoffs 	0
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPkFromHL:count 	1
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPkOk:count 	10000
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	rxPkOk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	txPk:count 	1
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	txPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	passedUpPk:count 	10000
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLAN.switchInLan.eth[1].mac 	passedUpPk:sum(packetBytes) 	1459918
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	queueingTime:histogram
+field count 49
+field mean 0.11910443278767
+field stddev 0.13585306089893
+field sum 5.836117206596
+field sqrsum 1.5809980290433
+field min 0
+field max 0.354086321649
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.1770431608245	0
+bin	-0.1534374060479	0
+bin	-0.1298316512713	0
+bin	-0.1062258964947	0
+bin	-0.0826201417181	0
+bin	-0.0590143869415	0
+bin	-0.0354086321649	0
+bin	-0.0118028773883	20
+bin	0.0118028773883	3
+bin	0.0354086321649	2
+bin	0.0590143869415	2
+bin	0.0826201417181	2
+bin	0.1062258964947	2
+bin	0.1298316512713	1
+bin	0.1534374060479	1
+bin	0.1770431608245	0
+bin	0.2006489156011	1
+bin	0.2242546703777	0
+bin	0.2478604251543	1
+bin	0.2714661799309	4
+bin	0.2950719347075	6
+bin	0.3186776894841	2
+bin	0.3422834442607	2
+bin	0.3658891990373	0
+bin	0.3894949538139	0
+bin	0.4131007085905	0
+bin	0.4367064633671	0
+bin	0.4603122181437	0
+bin	0.4839179729203	0
+bin	0.5075237276969	0
+bin	0.5311294824735	0
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	queueLength:max 	16
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	queueLength:timeavg 	0.05836117206596
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	rcvdPk:count 	49
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	5394
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	txState:timeavg 	0.00717125
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	rxPkOk:count 	5923
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	799653
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	rcvdPkFromHL:count 	49
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	5394
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	passedUpPk:count 	5923
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	758192
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	txPk:count 	49
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	5737
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	queueingTime:histogram
+field count 515
+field mean 1.5968456038835e-06
+field stddev 2.6374657604266e-05
+field sum 0.000822375486
+field sqrsum 3.5886320444309e-07
+field min 0
+field max 0.000512953367
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0002564766835	0
+bin	-0.00022227979236667	0
+bin	-0.00018808290123333	0
+bin	-0.0001538860101	0
+bin	-0.00011968911896667	0
+bin	-8.5492227833333e-05	0
+bin	-5.12953367e-05	0
+bin	-1.7098445566667e-05	513
+bin	1.7098445566667e-05	0
+bin	5.12953367e-05	0
+bin	8.5492227833333e-05	0
+bin	0.00011968911896667	0
+bin	0.0001538860101	0
+bin	0.00018808290123333	0
+bin	0.00022227979236667	0
+bin	0.0002564766835	0
+bin	0.00029067357463333	1
+bin	0.00032487046576667	0
+bin	0.0003590673569	0
+bin	0.00039326424803333	0
+bin	0.00042746113916667	0
+bin	0.0004616580303	0
+bin	0.00049585492143333	1
+bin	0.00053005181256667	0
+bin	0.0005642487037	0
+bin	0.00059844559483333	0
+bin	0.00063264248596667	0
+bin	0.0006668393771	0
+bin	0.00070103626823333	0
+bin	0.00073523315936667	0
+bin	0.0007694300505	0
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	queueLength:timeavg 	8.22375486e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	rcvdPk:count 	515
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	12960
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	txState:timeavg 	0.00085829015428999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	rxPkOk:count 	516
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	16592
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	rcvdPkFromHL:count 	515
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	12960
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	passedUpPk:count 	516
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	12980
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	txPk:count 	515
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	16565
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	queueingTime:histogram
+field count 6407
+field mean 2.4143514905572e-10
+field stddev 1.9325371825545e-08
+field sum 1.546875e-06
+field sqrsum 2.392822265625e-12
+field min 0
+field max 1.546875e-06
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-7.734375e-07	0
+bin	-6.703125e-07	0
+bin	-5.671875e-07	0
+bin	-4.640625e-07	0
+bin	-3.609375e-07	0
+bin	-2.578125e-07	0
+bin	-1.546875e-07	0
+bin	-5.15625e-08	6406
+bin	5.15625e-08	0
+bin	1.546875e-07	0
+bin	2.578125e-07	0
+bin	3.609375e-07	0
+bin	4.640625e-07	0
+bin	5.671875e-07	0
+bin	6.703125e-07	0
+bin	7.734375e-07	0
+bin	8.765625e-07	0
+bin	9.796875e-07	0
+bin	1.0828125e-06	0
+bin	1.1859375e-06	0
+bin	1.2890625e-06	0
+bin	1.3921875e-06	0
+bin	1.4953125e-06	1
+bin	1.5984375e-06	0
+bin	1.7015625e-06	0
+bin	1.8046875e-06	0
+bin	1.9078125e-06	0
+bin	2.0109375e-06	0
+bin	2.1140625e-06	0
+bin	2.2171875e-06	0
+bin	2.3203125e-06	0
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	queueLength:timeavg 	1.546875e-08
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	rcvdPk:count 	6407
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].queue 	rcvdPk:sum(packetBytes) 	766848
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	txState:timeavg 	0.00012682765625
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	rxPkOk:count 	508
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	rxPkOk:sum(packetBytes) 	15368
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	rcvdPkFromHL:count 	6407
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	rcvdPkFromHL:sum(packetBytes) 	766848
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	passedUpPk:count 	508
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	passedUpPk:sum(packetBytes) 	11812
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	txPk:count 	6407
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.ppp[2].ppp 	txPk:sum(packetBytes) 	811697
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.calgaryLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	queueingTime:histogram
+field count 5926
+field mean 1.6586109773641
+field stddev 0.14546922814804
+field sum 9828.9286518599
+field sqrsum 16427.749638506
+field min 0
+field max 1.687377681314
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.515751340657	0
+bin	-0.44698449523607	0
+bin	-0.37821764981513	0
+bin	-0.3094508043942	0
+bin	-0.24068395897327	0
+bin	-0.17191711355233	0
+bin	-0.1031502681314	0
+bin	-0.034383422710467	3
+bin	0.034383422710467	3
+bin	0.1031502681314	4
+bin	0.17191711355233	1
+bin	0.24068395897327	0
+bin	0.3094508043942	4
+bin	0.37821764981513	6
+bin	0.44698449523607	10
+bin	0.515751340657	6
+bin	0.58451818607793	9
+bin	0.65328503149887	9
+bin	0.7220518769198	10
+bin	0.79081872234073	9
+bin	0.85958556776167	10
+bin	0.9283524131826	10
+bin	0.99711925860353	10
+bin	1.0658861040245	11
+bin	1.1346529494454	9
+bin	1.2034197948663	12
+bin	1.2721866402873	9
+bin	1.3409534857082	11
+bin	1.4097203311291	10
+bin	1.4784871765501	10
+bin	1.547254021971	5750
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	dropPk:count 	4023
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	513374
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	queueLength:max 	100
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	queueLength:timeavg 	99.120235514096
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	rcvdPk:count 	10048
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	1284622
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	txState:timeavg 	0.99990767768681
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	rxPkOk:count 	49
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	5737
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	rcvdPkFromHL:count 	5926
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	758576
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	passedUpPk:count 	49
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	5394
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	txPk:count 	5926
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	800058
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	queueingTime:histogram
+field count 505
+field mean 1.0157492415842e-06
+field stddev 2.2826125240572e-05
+field sum 0.000512953367
+field sqrsum 2.6312115671664e-07
+field min 0
+field max 0.000512953367
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0002564766835	0
+bin	-0.00022227979236667	0
+bin	-0.00018808290123333	0
+bin	-0.0001538860101	0
+bin	-0.00011968911896667	0
+bin	-8.5492227833333e-05	0
+bin	-5.12953367e-05	0
+bin	-1.7098445566667e-05	504
+bin	1.7098445566667e-05	0
+bin	5.12953367e-05	0
+bin	8.5492227833333e-05	0
+bin	0.00011968911896667	0
+bin	0.0001538860101	0
+bin	0.00018808290123333	0
+bin	0.00022227979236667	0
+bin	0.0002564766835	0
+bin	0.00029067357463333	0
+bin	0.00032487046576667	0
+bin	0.0003590673569	0
+bin	0.00039326424803333	0
+bin	0.00042746113916667	0
+bin	0.0004616580303	0
+bin	0.00049585492143333	1
+bin	0.00053005181256667	0
+bin	0.0005642487037	0
+bin	0.00059844559483333	0
+bin	0.00063264248596667	0
+bin	0.0006668393771	0
+bin	0.00070103626823333	0
+bin	0.00073523315936667	0
+bin	0.0007694300505	0
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	queueLength:timeavg 	5.12953367e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	rcvdPk:count 	505
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	11824
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	txState:timeavg 	0.00079580310773999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	rxPkOk:count 	526
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	18446
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	rcvdPkFromHL:count 	505
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	11824
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	passedUpPk:count 	526
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	14764
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	txPk:count 	505
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	15359
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	rxPkOk:count 	9999
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	rxPkOk:sum(packetBytes) 	1349865
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	passedUpPk:count 	9999
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	passedUpPk:sum(packetBytes) 	1279872
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.ppp[2].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.vancouverLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	queueingTime:histogram
+field count 526
+field mean 1.2081968015209e-05
+field stddev 0.00017538023830592
+field sum 0.006355115176
+field sqrsum 1.6224851992116e-05
+field min 0
+field max 0.003698976901
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0018494884505	0
+bin	-0.0016028899904333	0
+bin	-0.0013562915303667	0
+bin	-0.0011096930703	0
+bin	-0.00086309461023333	0
+bin	-0.00061649615016667	0
+bin	-0.0003698976901	0
+bin	-0.00012329923003333	521
+bin	0.00012329923003333	2
+bin	0.0003698976901	1
+bin	0.00061649615016667	0
+bin	0.00086309461023333	0
+bin	0.0011096930703	0
+bin	0.0013562915303667	1
+bin	0.0016028899904333	0
+bin	0.0018494884505	0
+bin	0.0020960869105667	0
+bin	0.0023426853706333	0
+bin	0.0025892838307	0
+bin	0.0028358822907667	0
+bin	0.0030824807508333	0
+bin	0.0033290792109	0
+bin	0.0035756776709667	1
+bin	0.0038222761310333	0
+bin	0.0040688745911	0
+bin	0.0043154730511667	0
+bin	0.0045620715112333	0
+bin	0.0048086699713	0
+bin	0.0050552684313667	0
+bin	0.0053018668914333	0
+bin	0.0055484653515	0
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	queueLength:timeavg 	6.355115176e-05
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	rcvdPk:count 	526
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	14764
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	txState:timeavg 	0.00095575129409999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	rxPkOk:count 	505
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	15359
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	rcvdPkFromHL:count 	526
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	14764
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	passedUpPk:count 	505
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	11824
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	txPk:count 	526
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	18446
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	queueingTime:histogram
+field count 512
+field mean 8.8704011699219e-06
+field stddev 0.00011672474413733
+field sum 0.004541645399
+field sqrsum 7.0024904884564e-06
+field min 0
+field max 0.002365447764
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.001182723882	0
+bin	-0.0010250273644	0
+bin	-0.0008673308468	0
+bin	-0.0007096343292	0
+bin	-0.0005519378116	0
+bin	-0.000394241294	0
+bin	-0.0002365447764	0
+bin	-7.88482588e-05	507
+bin	7.88482588e-05	0
+bin	0.0002365447764	2
+bin	0.000394241294	1
+bin	0.0005519378116	0
+bin	0.0007096343292	0
+bin	0.0008673308468	1
+bin	0.0010250273644	0
+bin	0.001182723882	0
+bin	0.0013404203996	0
+bin	0.0014981169172	0
+bin	0.0016558134348	0
+bin	0.0018135099524	0
+bin	0.00197120647	0
+bin	0.0021289029876	0
+bin	0.0022865995052	1
+bin	0.0024442960228	0
+bin	0.0026019925404	0
+bin	0.002759689058	0
+bin	0.0029173855756	0
+bin	0.0030750820932	0
+bin	0.0032327786108	0
+bin	0.0033904751284	0
+bin	0.003548171646	0
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	queueLength:timeavg 	4.541645399e-05
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	rcvdPk:count 	512
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	12828
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	txState:timeavg 	0.00085036269316999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	rxPkOk:count 	518
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	17293
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	rcvdPkFromHL:count 	512
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	12828
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	passedUpPk:count 	518
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	13667
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	txPk:count 	512
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	16412
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	queueingTime:histogram
+field count 526
+field mean 9.6573173403042e-06
+field stddev 0.0001097788178712
+field sum 0.005079748921
+field sqrsum 6.376035895268e-06
+field min 0
+field max 0.001619333775
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0008096668875	0
+bin	-0.0007017113025	0
+bin	-0.0005937557175	0
+bin	-0.0004858001325	0
+bin	-0.0003778445475	0
+bin	-0.0002698889625	0
+bin	-0.0001619333775	0
+bin	-5.39777925e-05	520
+bin	5.39777925e-05	0
+bin	0.0001619333775	1
+bin	0.0002698889625	2
+bin	0.0003778445475	0
+bin	0.0004858001325	0
+bin	0.0005937557175	0
+bin	0.0007017113025	0
+bin	0.0008096668875	1
+bin	0.0009176224725	0
+bin	0.0010255780575	0
+bin	0.0011335336425	0
+bin	0.0012414892275	0
+bin	0.0013494448125	0
+bin	0.0014574003975	0
+bin	0.0015653559825	2
+bin	0.0016733115675	0
+bin	0.0017812671525	0
+bin	0.0018892227375	0
+bin	0.0019971783225	0
+bin	0.0021051339075	0
+bin	0.0022130894925	0
+bin	0.0023210450775	0
+bin	0.0024290006625	0
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	queueLength:timeavg 	5.079748921e-05
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	rcvdPk:count 	526
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].queue 	rcvdPk:sum(packetBytes) 	14475
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	txState:timeavg 	0.00094077720082999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	rxPkOk:count 	503
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	rxPkOk:sum(packetBytes) 	14944
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	rcvdPkFromHL:count 	526
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	rcvdPkFromHL:sum(packetBytes) 	14475
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	passedUpPk:count 	503
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	passedUpPk:sum(packetBytes) 	11423
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	txPk:count 	526
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.ppp[2].ppp 	txPk:sum(packetBytes) 	18157
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.edmontonLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.reginaLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.reginaLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.reginaLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.reginaLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	queueingTime:histogram
+field count 530
+field mean 0.0081970678840377
+field stddev 0.040221775367569
+field sum 4.34444597854
+field sqrsum 0.89142327066207
+field min 0
+field max 0.292160483684
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.146080241842	0
+bin	-0.12660287626307	0
+bin	-0.10712551068413	0
+bin	-0.0876481451052	0
+bin	-0.068170779526267	0
+bin	-0.048693413947333	0
+bin	-0.0292160483684	0
+bin	-0.0097386827894667	503
+bin	0.0097386827894667	1
+bin	0.0292160483684	1
+bin	0.048693413947333	2
+bin	0.068170779526267	1
+bin	0.0876481451052	2
+bin	0.10712551068413	4
+bin	0.12660287626307	6
+bin	0.146080241842	1
+bin	0.16555760742093	0
+bin	0.18503497299987	0
+bin	0.2045123385788	0
+bin	0.22398970415773	1
+bin	0.24346706973667	2
+bin	0.2629444353156	4
+bin	0.28242180089453	2
+bin	0.30189916647347	0
+bin	0.3213765320524	0
+bin	0.34085389763133	0
+bin	0.36033126321027	0
+bin	0.3798086287892	0
+bin	0.39928599436813	0
+bin	0.41876335994707	0
+bin	0.438240725526	0
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	queueLength:max 	11
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	queueLength:timeavg 	0.0434444597854
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	rcvdPk:count 	530
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	txState:timeavg 	0.0240925
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	rxPkOk:count 	530
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	19418
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	rcvdPkFromHL:count 	530
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	passedUpPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	15708
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	txPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	19274
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	queueingTime:histogram
+field count 516
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	516
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	rcvdPk:count 	516
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	12980
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	txState:timeavg 	0.00085968911800999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	rxPkOk:count 	515
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	16565
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	rcvdPkFromHL:count 	516
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	12980
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	passedUpPk:count 	515
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	12960
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	txPk:count 	516
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	16592
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	queueingTime:histogram
+field count 518
+field mean 6.0657743918919e-06
+field stddev 0.00010307281311641
+field sum 0.003142071135
+field sqrsum 5.5116695781569e-06
+field min 0
+field max 0.002261242121
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0011306210605	0
+bin	-0.00097987158576667	0
+bin	-0.00082912211103333	0
+bin	-0.0006783726363	0
+bin	-0.00052762316156667	0
+bin	-0.00037687368683333	0
+bin	-0.0002261242121	0
+bin	-7.5374737366667e-05	515
+bin	7.5374737366667e-05	0
+bin	0.0002261242121	1
+bin	0.00037687368683333	1
+bin	0.00052762316156667	0
+bin	0.0006783726363	0
+bin	0.00082912211103333	0
+bin	0.00097987158576667	0
+bin	0.0011306210605	0
+bin	0.0012813705352333	0
+bin	0.0014321200099667	0
+bin	0.0015828694847	0
+bin	0.0017336189594333	0
+bin	0.0018843684341667	0
+bin	0.0020351179089	0
+bin	0.0021858673836333	1
+bin	0.0023366168583667	0
+bin	0.0024873663331	0
+bin	0.0026381158078333	0
+bin	0.0027888652825667	0
+bin	0.0029396147573	0
+bin	0.0030903642320333	0
+bin	0.0032411137067667	0
+bin	0.0033918631815	0
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	queueLength:timeavg 	3.142071135e-05
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	rcvdPk:count 	518
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].queue 	rcvdPk:sum(packetBytes) 	13667
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	txState:timeavg 	0.00089601036150999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	rxPkOk:count 	511
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	rxPkOk:sum(packetBytes) 	16384
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	rcvdPkFromHL:count 	518
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	rcvdPkFromHL:sum(packetBytes) 	13667
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	passedUpPk:count 	511
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	passedUpPk:sum(packetBytes) 	12807
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	txPk:count 	518
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.reginaLSR.ppp[2].ppp 	txPk:sum(packetBytes) 	17293
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.reginaLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.torontoLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.torontoLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.torontoLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.torontoLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	queueingTime:histogram
+field count 6410
+field mean 1.8005749265211e-06
+field stddev 3.0600812051559e-05
+field sum 0.011541685279
+field sqrsum 6.0222314249819e-06
+field min 0
+field max 0.000699481865
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0003497409325	0
+bin	-0.00030310880816667	0
+bin	-0.00025647668383333	0
+bin	-0.0002098445595	0
+bin	-0.00016321243516667	0
+bin	-0.00011658031083333	0
+bin	-6.99481865e-05	0
+bin	-2.3316062166667e-05	6387
+bin	2.3316062166667e-05	0
+bin	6.99481865e-05	1
+bin	0.00011658031083333	0
+bin	0.00016321243516667	0
+bin	0.0002098445595	0
+bin	0.00025647668383333	0
+bin	0.00030310880816667	0
+bin	0.0003497409325	0
+bin	0.00039637305683333	0
+bin	0.00044300518116667	0
+bin	0.0004896373055	20
+bin	0.00053626942983333	0
+bin	0.00058290155416667	0
+bin	0.0006295336785	0
+bin	0.00067616580283333	2
+bin	0.00072279792716667	0
+bin	0.0007694300515	0
+bin	0.00081606217583333	0
+bin	0.00086269430016667	0
+bin	0.0009093264245	0
+bin	0.00095595854883333	0
+bin	0.0010025906731667	0
+bin	0.0010492227975	0
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	queueLength:timeavg 	0.00011541685279
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	rcvdPk:count 	6410
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	767556
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	txState:timeavg 	0.042094611380948
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	rxPkOk:count 	506
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	15602
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	rcvdPkFromHL:count 	6410
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	767556
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	passedUpPk:count 	506
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	12060
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	txPk:count 	6410
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	812426
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	queueingTime:histogram
+field count 508
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	508
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	rcvdPk:count 	508
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	11812
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	txState:timeavg 	2.40125e-06
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	rxPkOk:count 	6407
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	811697
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	rcvdPkFromHL:count 	508
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	11812
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	passedUpPk:count 	6407
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	766848
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	txPk:count 	508
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.torontoLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	15368
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.torontoLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	queueingTime:histogram
+field count 530
+field mean 0.0078414554319925
+field stddev 0.038812119359307
+field sum 4.155971378956
+field sqrsum 0.82946420659094
+field min 0
+field max 0.294029290452
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.147014645226	0
+bin	-0.1274126925292	0
+bin	-0.1078107398324	0
+bin	-0.0882087871356	0
+bin	-0.0686068344388	0
+bin	-0.049004881742	0
+bin	-0.0294029290452	0
+bin	-0.0098009763484	504
+bin	0.0098009763484	1
+bin	0.0294029290452	0
+bin	0.049004881742	2
+bin	0.0686068344388	2
+bin	0.0882087871356	1
+bin	0.1078107398324	6
+bin	0.1274126925292	5
+bin	0.147014645226	0
+bin	0.1666165979228	0
+bin	0.1862185506196	0
+bin	0.2058205033164	1
+bin	0.2254224560132	2
+bin	0.24502440871	1
+bin	0.2646263614068	3
+bin	0.2842283141036	2
+bin	0.3038302668004	0
+bin	0.3234322194972	0
+bin	0.343034172194	0
+bin	0.3626361248908	0
+bin	0.3822380775876	0
+bin	0.4018400302844	0
+bin	0.4214419829812	0
+bin	0.441043935678	0
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	queueLength:max 	11
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	queueLength:timeavg 	0.04155971378956
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	rcvdPk:count 	530
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	txState:timeavg 	0.0240925
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	rxPkOk:count 	529
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	19031
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	rcvdPkFromHL:count 	530
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	passedUpPk:count 	529
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	15328
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	txPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	19274
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	queueingTime:histogram
+field count 503
+field mean 1.0197880059642e-06
+field stddev 2.2871460191373e-05
+field sum 0.000512953367
+field sqrsum 2.6312115671664e-07
+field min 0
+field max 0.000512953367
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.0002564766835	0
+bin	-0.00022227979236667	0
+bin	-0.00018808290123333	0
+bin	-0.0001538860101	0
+bin	-0.00011968911896667	0
+bin	-8.5492227833333e-05	0
+bin	-5.12953367e-05	0
+bin	-1.7098445566667e-05	502
+bin	1.7098445566667e-05	0
+bin	5.12953367e-05	0
+bin	8.5492227833333e-05	0
+bin	0.00011968911896667	0
+bin	0.0001538860101	0
+bin	0.00018808290123333	0
+bin	0.00022227979236667	0
+bin	0.0002564766835	0
+bin	0.00029067357463333	0
+bin	0.00032487046576667	0
+bin	0.0003590673569	0
+bin	0.00039326424803333	0
+bin	0.00042746113916667	0
+bin	0.0004616580303	0
+bin	0.00049585492143333	1
+bin	0.00053005181256667	0
+bin	0.0005642487037	0
+bin	0.00059844559483333	0
+bin	0.00063264248596667	0
+bin	0.0006668393771	0
+bin	0.00070103626823333	0
+bin	0.00073523315936667	0
+bin	0.0007694300505	0
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	queueLength:timeavg 	5.12953367e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	rcvdPk:count 	503
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	11423
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	txState:timeavg 	0.00077430051706999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	rxPkOk:count 	526
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	18157
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	rcvdPkFromHL:count 	503
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	11423
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	passedUpPk:count 	526
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	14475
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	txPk:count 	503
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	14944
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.winnipegLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar wanAvecMPLSavecTE.montrealLSR.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar wanAvecMPLSavecTE.montrealLSR.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar wanAvecMPLSavecTE.montrealLSR.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar wanAvecMPLSavecTE.montrealLSR.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+statistic wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	queueingTime:histogram
+field count 531
+field mean 0.012071102767273
+field stddev 0.057106745157707
+field sum 6.409755569422
+field sqrsum 1.8057983997205
+field min 0
+field max 0.353945737777
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.1769728688885	0
+bin	-0.15337648637003	0
+bin	-0.12978010385157	0
+bin	-0.1061837213331	0
+bin	-0.082587338814633	0
+bin	-0.058990956296167	0
+bin	-0.0353945737777	0
+bin	-0.011798191259233	503
+bin	0.011798191259233	1
+bin	0.0353945737777	2
+bin	0.058990956296167	1
+bin	0.082587338814633	1
+bin	0.1061837213331	3
+bin	0.12978010385157	2
+bin	0.15337648637003	1
+bin	0.1769728688885	0
+bin	0.20056925140697	0
+bin	0.22416563392543	0
+bin	0.2477620164439	0
+bin	0.27135839896237	5
+bin	0.29495478148083	6
+bin	0.3185511639993	4
+bin	0.34214754651777	2
+bin	0.36574392903623	0
+bin	0.3893403115547	0
+bin	0.41293669407317	0
+bin	0.43653307659163	0
+bin	0.4601294591101	0
+bin	0.48372584162857	0
+bin	0.50732222414703	0
+bin	0.5309186066655	0
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	queueLength:max 	17
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	queueLength:timeavg 	0.06409755569422
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	rcvdPk:count 	531
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].queue 	rcvdPk:sum(packetBytes) 	15729
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	txState:timeavg 	0.0243075
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	rxPkOk:count 	530
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	19274
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	rcvdPkFromHL:count 	531
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	15729
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	passedUpPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	txPk:count 	531
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[0].ppp 	txPk:sum(packetBytes) 	19446
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	queueingTime:histogram
+field count 530
+field mean 0.010014669557634
+field stddev 0.049063430289355
+field sum 5.307774865546
+field sqrsum 1.3265750928049
+field min 0
+field max 0.305570737776
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.152785368888	0
+bin	-0.1324139863696	0
+bin	-0.1120426038512	0
+bin	-0.0916712213328	0
+bin	-0.0712998388144	0
+bin	-0.050928456296	0
+bin	-0.0305570737776	0
+bin	-0.0101856912592	504
+bin	0.0101856912592	2
+bin	0.0305570737776	1
+bin	0.050928456296	3
+bin	0.0712998388144	0
+bin	0.0916712213328	0
+bin	0.1120426038512	2
+bin	0.1324139863696	0
+bin	0.152785368888	0
+bin	0.1731567514064	0
+bin	0.1935281339248	0
+bin	0.2138995164432	0
+bin	0.2342708989616	6
+bin	0.25464228148	6
+bin	0.2750136639984	4
+bin	0.2953850465168	2
+bin	0.3157564290352	0
+bin	0.3361278115536	0
+bin	0.356499194072	0
+bin	0.3768705765904	0
+bin	0.3972419591088	0
+bin	0.4176133416272	0
+bin	0.4379847241456	0
+bin	0.458356106664	0
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	queueLength:max 	18
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	queueLength:timeavg 	0.05307774865546
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	rcvdPk:count 	530
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].queue 	rcvdPk:sum(packetBytes) 	15349
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	txState:timeavg 	0.02382374999999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	rxPkOk:count 	530
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	rxPkOk:sum(packetBytes) 	19274
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	rcvdPkFromHL:count 	530
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	rcvdPkFromHL:sum(packetBytes) 	15349
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	passedUpPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	passedUpPk:sum(packetBytes) 	15564
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	txPk:count 	530
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[1].ppp 	txPk:sum(packetBytes) 	19059
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	queueingTime:histogram
+field count 506
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	506
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	rcvdPk:count 	506
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].queue 	rcvdPk:sum(packetBytes) 	12060
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	txState:timeavg 	0.00080839378129999
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	rxPkOk:count 	6410
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	rxPkOk:sum(packetBytes) 	812426
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	rcvdPkFromHL:count 	506
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	rcvdPkFromHL:sum(packetBytes) 	12060
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	passedUpPk:count 	6410
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	passedUpPk:sum(packetBytes) 	767556
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	txPk:count 	506
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[2].ppp 	txPk:sum(packetBytes) 	15602
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+statistic wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	queueingTime:histogram
+field count 5884
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	5884
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	rcvdPk:count 	5884
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].queue 	rcvdPk:sum(packetBytes) 	753152
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	txState:timeavg 	0.0063547199999998
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	rcvdPkFromHL:count 	5884
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	rcvdPkFromHL:sum(packetBytes) 	753152
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	txPk:count 	5884
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar wanAvecMPLSavecTE.montrealLSR.ppp[3].ppp 	txPk:sum(packetBytes) 	794340
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar wanAvecMPLSavecTE.montrealLSR.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"

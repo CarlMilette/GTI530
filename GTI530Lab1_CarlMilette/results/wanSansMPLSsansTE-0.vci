@@ -1,0 +1,1019 @@
+file 17677040 1474902038                                        
+version 2
+run wanSansMPLSsansTE-0-20160926-11:00:07-18852
+attr configname wanSansMPLSsansTE
+attr datetime 20160926-11:00:07
+attr experiment wanSansMPLSsansTE
+attr inifile wanMPLS.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network wanSansMPLSSansTE
+attr processid 18852
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 47  wanSansMPLSSansTE.montrealServer.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 48  wanSansMPLSSansTE.montrealServer.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 75  wanSansMPLSSansTE.vancouverRouter.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 76  wanSansMPLSSansTE.vancouverRouter.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 145  wanSansMPLSSansTE.calgaryLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 146  wanSansMPLSSansTE.calgaryLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 156  wanSansMPLSSansTE.calgaryLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 157  wanSansMPLSSansTE.calgaryLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 167  wanSansMPLSSansTE.calgaryLSR.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 168  wanSansMPLSSansTE.calgaryLSR.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 183  wanSansMPLSSansTE.vancouverLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 184  wanSansMPLSSansTE.vancouverLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 194  wanSansMPLSSansTE.vancouverLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 195  wanSansMPLSSansTE.vancouverLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 205  wanSansMPLSSansTE.vancouverLSR.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 206  wanSansMPLSSansTE.vancouverLSR.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 221  wanSansMPLSSansTE.edmontonLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 222  wanSansMPLSSansTE.edmontonLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 232  wanSansMPLSSansTE.edmontonLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 233  wanSansMPLSSansTE.edmontonLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 243  wanSansMPLSSansTE.edmontonLSR.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 244  wanSansMPLSSansTE.edmontonLSR.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 259  wanSansMPLSSansTE.reginaLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 260  wanSansMPLSSansTE.reginaLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 270  wanSansMPLSSansTE.reginaLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 271  wanSansMPLSSansTE.reginaLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 281  wanSansMPLSSansTE.reginaLSR.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 282  wanSansMPLSSansTE.reginaLSR.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 297  wanSansMPLSSansTE.torontoLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 298  wanSansMPLSSansTE.torontoLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 308  wanSansMPLSSansTE.torontoLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 309  wanSansMPLSSansTE.torontoLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 324  wanSansMPLSSansTE.winnipegLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 325  wanSansMPLSSansTE.winnipegLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 335  wanSansMPLSSansTE.winnipegLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 336  wanSansMPLSSansTE.winnipegLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 351  wanSansMPLSSansTE.montrealLSR.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 352  wanSansMPLSSansTE.montrealLSR.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 362  wanSansMPLSSansTE.montrealLSR.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 363  wanSansMPLSSansTE.montrealLSR.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 373  wanSansMPLSSansTE.montrealLSR.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 374  wanSansMPLSSansTE.montrealLSR.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 384  wanSansMPLSSansTE.montrealLSR.ppp[3].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 385  wanSansMPLSSansTE.montrealLSR.ppp[3].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 294  wanSansMPLSSansTE.torontoLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 296  wanSansMPLSSansTE.torontoLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 305  wanSansMPLSSansTE.torontoLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 307  wanSansMPLSSansTE.torontoLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 303  wanSansMPLSSansTE.torontoLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 299  wanSansMPLSSansTE.torontoLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 14  wanSansMPLSSansTE.torontoLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 314  wanSansMPLSSansTE.torontoLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 310  wanSansMPLSSansTE.torontoLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 17  wanSansMPLSSansTE.torontoLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 170  wanSansMPLSSansTE.calgaryLSR.ppp[2].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 174  wanSansMPLSSansTE.calgaryLSR.ppp[2].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 164  wanSansMPLSSansTE.calgaryLSR.ppp[2].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 166  wanSansMPLSSansTE.calgaryLSR.ppp[2].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 142  wanSansMPLSSansTE.calgaryLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 144  wanSansMPLSSansTE.calgaryLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 153  wanSansMPLSSansTE.calgaryLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 155  wanSansMPLSSansTE.calgaryLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 173  wanSansMPLSSansTE.calgaryLSR.ppp[2].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 169  wanSansMPLSSansTE.calgaryLSR.ppp[2].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 16  wanSansMPLSSansTE.calgaryLSR.pppg$o[2].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 151  wanSansMPLSSansTE.calgaryLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 147  wanSansMPLSSansTE.calgaryLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 1  wanSansMPLSSansTE.calgaryLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 162  wanSansMPLSSansTE.calgaryLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 158  wanSansMPLSSansTE.calgaryLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 8  wanSansMPLSSansTE.calgaryLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 311  wanSansMPLSSansTE.torontoLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 315  wanSansMPLSSansTE.torontoLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 321  wanSansMPLSSansTE.winnipegLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 323  wanSansMPLSSansTE.winnipegLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 332  wanSansMPLSSansTE.winnipegLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 334  wanSansMPLSSansTE.winnipegLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 330  wanSansMPLSSansTE.winnipegLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 326  wanSansMPLSSansTE.winnipegLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 4  wanSansMPLSSansTE.winnipegLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 341  wanSansMPLSSansTE.winnipegLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 337  wanSansMPLSSansTE.winnipegLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 13  wanSansMPLSSansTE.winnipegLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 256  wanSansMPLSSansTE.reginaLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 258  wanSansMPLSSansTE.reginaLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 267  wanSansMPLSSansTE.reginaLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 269  wanSansMPLSSansTE.reginaLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 278  wanSansMPLSSansTE.reginaLSR.ppp[2].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 280  wanSansMPLSSansTE.reginaLSR.ppp[2].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 265  wanSansMPLSSansTE.reginaLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 261  wanSansMPLSSansTE.reginaLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 2  wanSansMPLSSansTE.reginaLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 276  wanSansMPLSSansTE.reginaLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 272  wanSansMPLSSansTE.reginaLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 9  wanSansMPLSSansTE.reginaLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 287  wanSansMPLSSansTE.reginaLSR.ppp[2].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 283  wanSansMPLSSansTE.reginaLSR.ppp[2].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 11  wanSansMPLSSansTE.reginaLSR.pppg$o[2].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 180  wanSansMPLSSansTE.vancouverLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 182  wanSansMPLSSansTE.vancouverLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 191  wanSansMPLSSansTE.vancouverLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 193  wanSansMPLSSansTE.vancouverLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 189  wanSansMPLSSansTE.vancouverLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 185  wanSansMPLSSansTE.vancouverLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 0  wanSansMPLSSansTE.vancouverLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 200  wanSansMPLSSansTE.vancouverLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 196  wanSansMPLSSansTE.vancouverLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 6  wanSansMPLSSansTE.vancouverLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 90  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].udpApp[0]  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 97  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].udpApp[0].udpOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 92  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 99  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].udp.ipOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 101  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 88  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].networkLayer.ifOut[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 115  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 111  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 84  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 106  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 130  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 131  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 123  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 22  wanSansMPLSSansTE.vancouverLAN.switchInOut$o.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 118  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 61  wanSansMPLSSansTE.vancouverRouter.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 62  wanSansMPLSSansTE.vancouverRouter.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 70  wanSansMPLSSansTE.vancouverRouter.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 56  wanSansMPLSSansTE.vancouverRouter.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 69  wanSansMPLSSansTE.vancouverRouter.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 65  wanSansMPLSSansTE.vancouverRouter.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 23  wanSansMPLSSansTE.vancouverRouter.ethg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 60  wanSansMPLSSansTE.vancouverRouter.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 119  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 120  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 134  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 83  wanSansMPLSSansTE.vancouverLAN.switchInLan.ethg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 129  wanSansMPLSSansTE.vancouverLAN.switchInLan.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 107  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 108  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 116  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 87  wanSansMPLSSansTE.vancouverLAN.staSwitch[0].eth[0].upperLayerOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 72  wanSansMPLSSansTE.vancouverRouter.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 74  wanSansMPLSSansTE.vancouverRouter.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 81  wanSansMPLSSansTE.vancouverRouter.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 77  wanSansMPLSSansTE.vancouverRouter.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 21  wanSansMPLSSansTE.vancouverRouter.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 208  wanSansMPLSSansTE.vancouverLSR.ppp[2].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 212  wanSansMPLSSansTE.vancouverLSR.ppp[2].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 376  wanSansMPLSSansTE.montrealLSR.ppp[2].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 380  wanSansMPLSSansTE.montrealLSR.ppp[2].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 370  wanSansMPLSSansTE.montrealLSR.ppp[2].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 372  wanSansMPLSSansTE.montrealLSR.ppp[2].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 348  wanSansMPLSSansTE.montrealLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 350  wanSansMPLSSansTE.montrealLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 359  wanSansMPLSSansTE.montrealLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 361  wanSansMPLSSansTE.montrealLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 379  wanSansMPLSSansTE.montrealLSR.ppp[2].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 375  wanSansMPLSSansTE.montrealLSR.ppp[2].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 15  wanSansMPLSSansTE.montrealLSR.pppg$o[2].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 357  wanSansMPLSSansTE.montrealLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 353  wanSansMPLSSansTE.montrealLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 3  wanSansMPLSSansTE.montrealLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 368  wanSansMPLSSansTE.montrealLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 364  wanSansMPLSSansTE.montrealLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 5  wanSansMPLSSansTE.montrealLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 273  wanSansMPLSSansTE.reginaLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 277  wanSansMPLSSansTE.reginaLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 246  wanSansMPLSSansTE.edmontonLSR.ppp[2].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 250  wanSansMPLSSansTE.edmontonLSR.ppp[2].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 240  wanSansMPLSSansTE.edmontonLSR.ppp[2].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 242  wanSansMPLSSansTE.edmontonLSR.ppp[2].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 218  wanSansMPLSSansTE.edmontonLSR.ppp[0].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 220  wanSansMPLSSansTE.edmontonLSR.ppp[0].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 229  wanSansMPLSSansTE.edmontonLSR.ppp[1].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 231  wanSansMPLSSansTE.edmontonLSR.ppp[1].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 249  wanSansMPLSSansTE.edmontonLSR.ppp[2].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 245  wanSansMPLSSansTE.edmontonLSR.ppp[2].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 12  wanSansMPLSSansTE.edmontonLSR.pppg$o[2].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 227  wanSansMPLSSansTE.edmontonLSR.ppp[0].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 223  wanSansMPLSSansTE.edmontonLSR.ppp[0].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 7  wanSansMPLSSansTE.edmontonLSR.pppg$o[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 238  wanSansMPLSSansTE.edmontonLSR.ppp[1].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 234  wanSansMPLSSansTE.edmontonLSR.ppp[1].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 10  wanSansMPLSSansTE.edmontonLSR.pppg$o[1].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 159  wanSansMPLSSansTE.calgaryLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 163  wanSansMPLSSansTE.calgaryLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 235  wanSansMPLSSansTE.edmontonLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 239  wanSansMPLSSansTE.edmontonLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 224  wanSansMPLSSansTE.edmontonLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 228  wanSansMPLSSansTE.edmontonLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 300  wanSansMPLSSansTE.torontoLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 304  wanSansMPLSSansTE.torontoLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 197  wanSansMPLSSansTE.vancouverLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 201  wanSansMPLSSansTE.vancouverLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 284  wanSansMPLSSansTE.reginaLSR.ppp[2].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 288  wanSansMPLSSansTE.reginaLSR.ppp[2].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 338  wanSansMPLSSansTE.winnipegLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 342  wanSansMPLSSansTE.winnipegLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 186  wanSansMPLSSansTE.vancouverLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 190  wanSansMPLSSansTE.vancouverLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 365  wanSansMPLSSansTE.montrealLSR.ppp[1].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 369  wanSansMPLSSansTE.montrealLSR.ppp[1].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 262  wanSansMPLSSansTE.reginaLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 266  wanSansMPLSSansTE.reginaLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 327  wanSansMPLSSansTE.winnipegLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 331  wanSansMPLSSansTE.winnipegLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 354  wanSansMPLSSansTE.montrealLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 358  wanSansMPLSSansTE.montrealLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 148  wanSansMPLSSansTE.calgaryLSR.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 152  wanSansMPLSSansTE.calgaryLSR.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 381  wanSansMPLSSansTE.montrealLSR.ppp[3].queue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 383  wanSansMPLSSansTE.montrealLSR.ppp[3].queue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 390  wanSansMPLSSansTE.montrealLSR.ppp[3].ppp  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 386  wanSansMPLSSansTE.montrealLSR.ppp[3].ppp  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, vector(packetBytes)"
+vector 18  wanSansMPLSSansTE.montrealLSR.pppg$o[3].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 50  wanSansMPLSSansTE.montrealServer.ppp[0].ppp  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 54  wanSansMPLSSansTE.montrealServer.ppp[0].ppp  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 26  wanSansMPLSSansTE.montrealServer.ppp[0].upperLayerOut.channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 38  wanSansMPLSSansTE.montrealServer.networkLayer.transportOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 31  wanSansMPLSSansTE.montrealServer.udp  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 32  wanSansMPLSSansTE.montrealServer.udp  passedUpPk:vector(count)  ETV
+attr interpolationmode  none
+attr title  "packets passed up, vector(count)"
+vector 36  wanSansMPLSSansTE.montrealServer.udp.appOut[0].channel  throughput:vector  ETV
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+vector 28  wanSansMPLSSansTE.montrealServer.udpApp[0]  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 29  wanSansMPLSSansTE.montrealServer.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 181  wanSansMPLSSansTE.vancouverLSR.ppp[0].queue  dropPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, vector(packetBytes)"
+0	40324 240403 135 492543 0.009232231314 99.999607231314 5926 63669.338729597 210566.64785381 379693572.38546 24352543919242
+1	280727 1866 63 24208 0.000686518564 4.455982231314 49 10299.861538376 1992662.7941848 4472349.5181709 4155758872783.3
+2	282593 21433 96 492026 0.004851281637 99.889469857052 530 1543.6261722147 400718.8502876 3985848.5589495 314770974112.4
+3	304026 21458 210 492517 0.011469857052 99.992101281637 531 1555.8028884884 137804.80384247 3769793.0073381 175800867861.06
+4	325484 21416 84 491799 0.004836021049 99.841094857051 530 1544.3740898552 282877.18066961 3899000.2954756 239077217617.33
+5	346900 21436 211 492522 0.011469857052 99.993602212758 530 1524.817554583 137804.80384247 3619025.4947913 169185910486.04
+6	368336 20476 136 492204 0.009232231314 99.920354775054 505 1229.6993968508 266215.51348367 1534137.455486 131201516178.65
+7	388812 21262 249 492125 0.015722031411 99.910209697334 526 1477.0062083449 670256.67504423 7114406.7831456 2032227211464
+8	410074 20860 64 492004 0.000686518564 99.880776905547 515 1326.7818303548 1992662.7941848 5857855.5409844 5035881008942.9
+9	430934 20889 97 491958 0.004851281637 99.870631827827 516 1329.0794057339 400718.8502876 3864701.6595372 716279884708.1
+10	451823 21251 250 492527 0.015722031411 99.995401285278 512 1313.0203820616 567009.83391734 3280479.2228073 834716477238.25
+11	473074 21482 98 491607 0.004851281637 99.805546362998 518 1386.135390681 409021.9056686 4528782.2415044 879597527323.57
+12	494556 21778 248 491613 0.015722031411 99.807631860132 526 1455.3596482838 563806.98558689 6633078.4336581 1707459016289.3
+13	516334 20906 85 491686 0.004836021049 99.817776937852 503 1197.702490153 282877.18066961 1337723.3989275 121638146641.63
+14	537240 265532 46 492482 0.00058384669 99.985959340688 6410 56455.676105189 2343080.8522696 421220272.95745 38334988896691
+15	802772 20511 209 492381 0.011469857052 99.96788657058 506 1248.5609557413 542515.20372382 2240524.2865315 464019567716.84
+16	823283 266363 62 492475 0.000686518564 99.985857231314 6407 49059.261474243 4509710.5342078 418740202.74229 48061749545433
+17	1089646 21089 47 491893 0.00058384669 99.863671228168 508 1231.1183685516 2343080.8522696 4506423.2995125 5922605712321.9
+18	1110735 244727 2642 492535 0.260629780059 99.996658822553 5884 4143.808891507 63549.323295658 363624236.74017 22594446535803
+21	1355462 365739 188 492505 0.0104771 99.9902465 9999 103081.95970259 107999.73375403 1079863729.8536 1.1662225833609e+14
+22	1721201 375740 149 492497 0.01005765 99.99012325 10000 57269.839375997 174621.03468758 1232477863.9211 1.5190914912546e+14
+23	2096941 33 159 159 0.0101153 0.0101153 1 56943.442112444 56943.442112444 56943.442112444 3242555599.6132
+26	2096974 244767 2644 492537 0.260737830059 99.996766872553 5884 3927.3165684024 60254.108092107 344768062.80067 20311899929834
+28	2341741 174776 2647 492540 0.260737830059 99.996766872553 5884 100 100 588400 58840000
+29	2516517 239500 2647 492540 0.260737830059 99.996766872553 5884 0.190737830059 1.735516872553 10079.453749059 17346.74531895
+31	2756017 174776 2646 492539 0.260737830059 99.996766872553 5884 108 108 635472 68630976
+32	2930793 179553 2646 492539 0.260737830059 99.996766872553 5884 1 5884 17313670 67921527410
+36	3110346 244695 2646 492539 0.260737830059 99.996766872553 5884 3068.2160690644 47073.521946958 269350049.06302 12397399859518
+38	3355041 244717 2645 492538 0.260737830059 99.996766872553 5884 3313.6733545895 50839.403702715 290898052.98806 14460327196142
+47	3599758 9 0 0 0 0 1 0 0 0 0
+48	3599767 9 0 0 0 0 1 0 0 0 0
+50	3599776 174776 2644 492537 0.260737830059 99.996766872553 5884 135 135 794340 107235900
+54	3774552 174776 2644 492537 0.260737830059 99.996766872553 5884 128 128 753152 96403456
+56	3949328 19 156 156 0.0101153 0.0101153 1 1 1 1 1
+60	3949347 20 162 162 0.0101729 0.0101729 1 64 64 64 4096
+61	3949367 246839 153 492501 0.0101153 99.9902465 10000 64 146 1459918 213142780
+62	4196206 246839 153 492501 0.0101153 99.9902465 10000 64 146 1459918 213142780
+65	4443045 20 159 159 0.0101153 0.0101153 1 64 64 64 4096
+69	4443065 20 158 158 0.0101153 0.0101153 1 28 28 28 784
+70	4443085 246839 154 492502 0.0101153 99.9902465 10000 28 128 1279900 163824400
+72	4689924 246819 187 492504 0.0104771 99.9902465 9999 128 128 1279872 163823616
+74	4936743 226821 187 492504 0.0104771 99.9902465 9999 0 0 0 0
+75	5163564 9 0 0 0 0 1 0 0 0 0
+76	5163573 453651 0 492507 0 99.9903545 19999 0 1 9999 9999
+77	5617224 246819 188 492505 0.0104771 99.9902465 9999 135 135 1349865 182231775
+81	5864043 246819 188 492505 0.0104771 99.9902465 9999 128 128 1279872 163823616
+83	6110862 34 165 165 0.01017295 0.01017295 1 56620.744228567 56620.744228567 56620.744228567 3205908676.9968
+84	6110896 313657 144 492492 0.01 99.99 10000 57600 176724.72777745 1232494085.0755 1.5191345022373e+14
+87	6424553 33 170 170 0.0102306 0.0102306 1 21895.099016675 21895.099016675 21895.099016675 479395360.95002
+88	6424586 314042 142 492490 0.01 99.99 10000 22400 121986.98023576 1024136427.1154 1.0489264747498e+14
+90	6738628 195644 138 492544 0.01 100 10000 100 100 1000000 100000000
+92	6934272 195626 140 492489 0.01 99.99 9999 108 108 1079892 116628336
+97	7129898 215644 138 492544 0.01 100 10000 80000 80000 800000000 64000000000000
+99	7345542 215624 140 492489 0.01 99.99 9999 86400 86400 863913600 74642135040000
+101	7561166 15 141 141 0.01 0.01 1 1 1 1 1
+106	7561181 256838 146 492494 0.0100576 99.9901232 10000 64 146 1459918 213142780
+107	7818019 21 169 169 0.0102306 0.0102306 1 64 64 64 4096
+108	7818040 21 169 169 0.0102306 0.0102306 1 64 64 64 4096
+111	7818061 205646 144 492492 0.01 99.99 10000 64 146 1459918 213142780
+115	8023707 205646 143 492491 0.01 99.99 10000 28 128 1279900 163824400
+116	8229353 21 170 170 0.0102306 0.0102306 1 28 28 28 784
+118	8229374 266839 152 492500 0.01011525 99.99024645 10000 64 146 1459918 213142780
+119	8496213 22 163 163 0.01017295 0.01017295 1 64 64 64 4096
+120	8496235 22 163 163 0.01017295 0.01017295 1 64 64 64 4096
+123	8496257 266839 149 492497 0.01005765 99.99012325 10000 64 146 1459918 213142780
+129	8763096 22 168 168 0.01023055 0.01023055 1 64 64 64 4096
+130	8763118 266838 147 492495 0.01005765 99.99012325 10000 64 146 1459918 213142780
+131	9029956 266838 147 492495 0.01005765 99.99012325 10000 64 146 1459918 213142780
+134	9296794 22 165 165 0.01017295 0.01017295 1 64 64 64 4096
+142	9296816 1335 60 24207 0.000686518564 4.455982231314 49 21 1460 5394 2762262
+144	9298151 1647 60 24207 0.000686518564 4.455982231314 49 0 0.354086321649 5.836117206596 1.5809980290433
+145	9299798 1526 0 22234 0 4.068357231314 59 0 16 421 4097
+146	9301324 2582 0 24211 0 4.459482231314 99 0 1 49 49
+147	9303906 1343 63 24208 0.000686518564 4.455982231314 49 28 1467 5737 2840179
+148	9305249 181729 851 492470 0.059607231314 99.985857231314 5923 28 1467 799653 109977519
+151	9486978 1343 63 24208 0.000686518564 4.455982231314 49 21 1460 5394 2762262
+152	9488321 181729 851 492470 0.059607231314 99.985857231314 5923 21 1460 758192 99072604
+153	9670050 15248 61 492002 0.000686518564 99.880776905547 515 21 596 12960 934980
+155	9685298 14755 61 492002 0.000686518564 99.880776905547 515 0 0.000512953367 0.000822375486 3.5886320444309e-07
+156	9700053 112 0 1108 0 0.081289858914 5 0 1 2 2
+157	9700165 29468 0 492005 0 99.880921983267 1031 0 1 515 515
+158	9729633 15248 64 492004 0.000686518564 99.880776905547 515 28 603 16565 1141655
+159	9744881 15275 251 491997 0.016110348994 99.880776905547 516 28 603 16592 1069808
+162	9760156 15248 64 492004 0.000686518564 99.880776905547 515 21 596 12960 934980
+163	9775404 15275 251 491997 0.016110348994 99.880776905547 516 21 596 12980 862804
+164	9790679 196121 59 492474 0.000686518564 99.985857231314 6407 21 380 766848 97250628
+166	9986800 183835 59 492474 0.000686518564 99.985857231314 6407 0 1.546875e-06 1.546875e-06 2.392822265625e-12
+167	10170635 60 0 927 0 0.063773212542 3 0 1 1 1
+168	10170695 367653 0 492476 0 99.985859340689 12815 0 1 6407 6407
+169	10538348 196121 62 492475 0.000686518564 99.985857231314 6407 28 387 811697 108300443
+170	10734469 15055 49 491896 0.000686518564 99.863771665667 508 28 387 15368 719240
+173	10749524 196121 62 492475 0.000686518564 99.985857231314 6407 21 380 766848 97250628
+174	10945645 15055 49 491896 0.000686518564 99.863771665667 508 21 380 11812 528980
+180	10960700 268183 133 492512 0.009232231314 99.99035455 10048 21 1460 1284622 166417562
+181	11228883 107551 9643 492467 1.56035455 99.98035455 4023 21 128 513374 65673790
+182	11336434 247010 133 492542 0.009232231314 99.999607231314 5926 0 1.687377681314 9828.9286518599 16427.749638506
+183	11583444 336335 0 492542 0 99.999607231314 11950 0 100 1178975 116892131
+184	11919779 339969 0 492543 0 99.999607231314 11852 0 1 5926 5926
+185	12259748 181814 135 492543 0.009232231314 99.999607231314 5926 28 1467 800058 110032194
+186	12441562 1346 695 24333 0.042061518564 4.479482231314 49 28 1467 5737 2840179
+189	12442908 181814 135 492543 0.009232231314 99.999607231314 5926 21 1460 758576 99121756
+190	12624722 1346 695 24333 0.042061518564 4.479482231314 49 21 1460 5394 2762262
+191	12626068 14979 134 492202 0.009232231314 99.920354775054 505 21 812 11824 960932
+193	12641047 14485 134 492202 0.009232231314 99.920354775054 505 0 0.000512953367 0.000512953367 2.6312115671664e-07
+194	12655532 62 0 1462 0 0.120867728421 3 0 1 1 1
+195	12655594 28954 0 492205 0 99.920499852774 1011 0 1 505 505
+196	12684548 14979 136 492204 0.009232231314 99.920354775054 505 28 819 15359 1151213
+197	12699527 15545 424 492197 0.026608041773 99.920354775054 526 28 819 18446 1888394
+200	12715072 14979 136 492204 0.009232231314 99.920354775054 505 21 812 11824 960932
+201	12730051 15545 424 492197 0.026608041773 99.920354775054 526 21 812 14764 1655924
+205	12745596 10 0 0 0 0 1 0 0 0 0
+206	12745606 10 0 0 0 0 1 0 0 0 0
+208	12745616 266817 192 492508 0.01058515 99.99035455 9999 135 135 1349865 182231775
+212	13012433 266817 192 492508 0.01058515 99.99035455 9999 128 128 1279872 163823616
+218	13279250 15548 246 492124 0.015722031411 99.910209697334 526 21 812 14764 1655924
+220	13294798 15080 246 492124 0.015722031411 99.910209697334 526 0 0.003698976901 0.006355115176 1.6224851992116e-05
+221	13309878 264 0 2324 0 0.228802844586 11 0 1 5 5
+222	13310142 30037 0 492139 0 99.910354775054 1053 0 1 526 526
+223	13340179 15548 249 492125 0.015722031411 99.910209697334 526 28 819 18446 1888394
+224	13355727 14979 363 492242 0.020491298671 99.930499852774 505 28 819 15359 1151213
+227	13370706 15548 249 492125 0.015722031411 99.910209697334 526 21 812 14764 1655924
+228	13386254 14979 363 492242 0.020491298671 99.930499852774 505 21 812 11824 960932
+229	13401233 15168 247 492526 0.015722031411 99.995401285278 512 21 596 12828 1081236
+231	13416401 14717 247 492526 0.015722031411 99.995401285278 512 0 0.002365447764 0.004541645399 7.0024904884564e-06
+232	13431118 264 0 2325 0 0.228802844586 11 0 1 5 5
+233	13431382 29314 0 492528 0 99.995546362998 1025 0 1 512 512
+234	13460696 15168 250 492527 0.015722031411 99.995401285278 512 28 603 16412 1285916
+235	13475864 15329 252 491657 0.016110348994 99.815691440718 518 28 963 17293 1702363
+238	13491193 15168 250 492527 0.015722031411 99.995401285278 512 21 596 12828 1081236
+239	13506361 15329 252 491657 0.016110348994 99.815691440718 518 21 956 13667 1485643
+240	13521690 15547 245 491612 0.015722031411 99.807631860132 526 21 596 14475 1177803
+242	13537237 15092 245 491612 0.015722031411 99.807631860132 526 0 0.001619333775 0.005079748921 6.376035895268e-06
+243	13552329 314 0 2170 0 0.216572269732 13 0 1 6 6
+244	13552643 30036 0 491614 0 99.807776937852 1053 0 1 526 526
+245	13582679 15547 248 491613 0.015722031411 99.807631860132 526 28 603 18157 1406227
+246	13598226 14922 235 491720 0.015722031411 99.827922015572 503 28 603 14944 803668
+249	13613148 15547 248 491613 0.015722031411 99.807631860132 526 21 596 14475 1177803
+250	13628695 14922 235 491720 0.015722031411 99.827922015572 503 21 596 11423 619099
+256	13643617 15658 93 492025 0.004851281637 99.889469857052 530 21 1460 15564 2909748
+258	13659275 15474 93 492025 0.004851281637 99.889469857052 530 0 0.292160483684 4.34444597854 0.89142327066207
+259	13674749 1414 0 4820 0 0.600351281637 55 0 11 363 2827
+260	13676163 30258 0 492056 0 99.892969857052 1061 0 1 530 530
+261	13706421 15662 96 492026 0.004851281637 99.889469857052 530 28 1467 19274 3153614
+262	13722083 15663 818 491653 0.052844857052 99.815601281637 530 28 1251 19418 2922926
+265	13737746 15662 96 492026 0.004851281637 99.889469857052 530 21 1460 15564 2909748
+266	13753408 15663 818 491653 0.052844857052 99.815601281637 530 21 1244 15708 2677044
+267	13769071 15273 94 491957 0.004851281637 99.870631827827 516 21 596 12980 862804
+269	13784344 14752 94 491957 0.004851281637 99.870631827827 516 0 0 0 0
+270	13799096 10 0 0 0 0 1 0 0 0 0
+271	13799106 29514 0 491959 0 99.870776905547 1033 0 1 516 516
+272	13828620 15273 97 491958 0.004851281637 99.870631827827 516 28 603 16592 1069808
+273	13843893 15250 212 492052 0.011572528926 99.890921983267 515 28 603 16565 1141655
+276	13859143 15273 97 491958 0.004851281637 99.870631827827 516 21 596 12980 862804
+277	13874416 15250 212 492052 0.011572528926 99.890921983267 515 21 596 12960 934980
+278	13889666 15329 95 491605 0.004851281637 99.805546362998 518 21 956 13667 1485643
+280	13904995 14844 95 491605 0.004851281637 99.805546362998 518 0 0.002261242121 0.003142071135 5.5116695781569e-06
+281	13919839 163 0 2053 0 0.206059316365 7 0 1 3 3
+282	13920002 29621 0 491608 0 99.805691440718 1037 0 1 518 518
+283	13949623 15328 98 491607 0.004851281637 99.805546362998 518 28 963 17293 1702363
+284	13964951 15139 425 491600 0.026608041773 99.805546362998 511 28 603 16384 1285132
+287	13980090 15328 98 491607 0.004851281637 99.805546362998 518 21 956 13667 1485643
+288	13995418 15139 425 491600 0.026608041773 99.805546362998 511 21 596 12807 1080795
+294	14010557 195200 44 492481 0.00058384669 99.985959340688 6410 21 884 767556 97842804
+296	14205757 183261 44 492481 0.00058384669 99.985959340688 6410 0 0.000699481865 0.011541685279 6.0222314249819e-06
+297	14389018 1366 0 482643 0 97.978533822553 51 0 1 25 25
+298	14390384 366372 0 492483 0 99.986658822553 12821 0 1 6410 6410
+299	14756756 195242 46 492482 0.00058384669 99.985959340688 6410 28 891 812426 108902678
+300	14951998 14005 398 492423 0.023848095393 99.9780316483 506 28 675 15602 1116950
+303	14966003 195242 46 492482 0.00058384669 99.985959340688 6410 21 884 767556 97842804
+304	15161245 14005 398 492423 0.023848095393 99.9780316483 506 21 668 12060 923316
+305	15175250 15052 45 491892 0.00058384669 99.863671228168 508 21 380 11812 528980
+307	15190302 14541 45 491892 0.00058384669 99.863671228168 508 0 0 0 0
+308	15204843 10 0 0 0 0 1 0 0 0 0
+309	15204853 29092 0 491894 0 99.863671665668 1017 0 1 508 508
+310	15233945 15052 47 491893 0.00058384669 99.863671228168 508 28 387 15368 719240
+311	15248997 196122 66 492477 0.000792565438 99.985959340688 6407 28 387 811697 108300443
+314	15445119 15052 47 491893 0.00058384669 99.863671228168 508 21 380 11812 528980
+315	15460171 196122 66 492477 0.000792565438 99.985959340688 6407 21 380 766848 97250628
+321	15656293 15653 82 491798 0.004836021049 99.841094857051 530 21 1460 15564 2909748
+323	15671946 15456 82 491798 0.004836021049 99.841094857051 530 0 0.294029290452 4.155971378956 0.82946420659094
+324	15687402 1360 0 4832 0 0.601852212758 53 0 11 346 2710
+325	15688762 30256 0 491800 0 99.844594857051 1061 0 1 530 530
+326	15719018 15661 84 491799 0.004836021049 99.841094857051 530 28 1467 19274 3153614
+327	15734679 15635 819 491661 0.052844857052 99.817102212758 529 28 1035 19031 2399909
+330	15750314 15661 84 491799 0.004836021049 99.841094857051 530 21 1460 15564 2909748
+331	15765975 15635 819 491661 0.052844857052 99.817102212758 529 21 1028 15328 2159396
+332	15781610 14921 83 491684 0.004836021049 99.817776937852 503 21 596 11423 619099
+334	15796531 14429 83 491684 0.004836021049 99.817776937852 503 0 0.000512953367 0.000512953367 2.6312115671664e-07
+335	15810960 62 0 2192 0 0.218289891219 3 0 1 1 1
+336	15811022 28842 0 491688 0 99.817922015572 1007 0 1 503 503
+337	15839864 14921 85 491686 0.004836021049 99.817776937852 503 28 603 14944 803668
+338	15854785 15545 454 491679 0.027727212758 99.817776937852 526 28 603 18157 1406227
+341	15870330 14921 85 491686 0.004836021049 99.817776937852 503 21 596 11423 619099
+342	15885251 15545 454 491679 0.027727212758 99.817776937852 526 21 596 14475 1177803
+348	15900796 15682 207 492516 0.011469857052 99.992101281637 531 21 1244 15729 2677485
+350	15916478 15511 207 492516 0.011469857052 99.992101281637 531 0 0.353945737777 6.409755569422 1.8057983997205
+351	15931989 1480 0 5074 0 0.637344857052 57 0 17 472 5000
+352	15933469 30311 0 492529 0 99.995601281637 1063 0 1 531 531
+353	15963780 15690 210 492517 0.011469857052 99.992101281637 531 28 1251 19446 2923710
+354	15979470 15665 826 492151 0.055226281637 99.912969857052 530 28 1467 19274 3153614
+357	15995135 15690 210 492517 0.011469857052 99.992101281637 531 21 1244 15729 2677485
+358	16010825 15665 826 492151 0.055226281637 99.912969857052 530 21 1460 15564 2909748
+359	16026490 15655 208 492521 0.011469857052 99.993602212758 530 21 1028 15349 2159837
+361	16042145 15462 208 492521 0.011469857052 99.993602212758 530 0 0.305570737776 5.307774865546 1.3265750928049
+362	16057607 1369 0 4621 0 0.576594857051 53 0 18 412 4486
+363	16058976 30259 0 492541 0 99.997102212758 1061 0 1 530 530
+364	16089235 15662 211 492522 0.011469857052 99.993602212758 530 28 1035 19059 2400693
+365	16104897 15664 746 491909 0.046211021049 99.864594857051 530 28 1467 19274 3153614
+368	16120561 15662 211 492522 0.011469857052 99.993602212758 530 21 1028 15349 2159837
+369	16136223 15664 746 491909 0.046211021049 99.864594857051 530 21 1460 15564 2909748
+370	16151887 14505 206 492380 0.011469857052 99.96788657058 506 21 668 12060 923316
+372	16166392 13996 206 492380 0.011469857052 99.96788657058 506 0 0 0 0
+373	16180388 10 0 0 0 0 1 0 0 0 0
+374	16180398 27502 0 492382 0 99.9680316483 1013 0 1 506 506
+375	16207900 14505 209 492381 0.011469857052 99.96788657058 506 28 675 15602 1116950
+376	16222405 195727 196 492530 0.011469857052 99.996658822553 6410 28 891 812426 108902678
+379	16418132 14505 209 492381 0.011469857052 99.96788657058 506 21 668 12060 923316
+380	16432637 195727 196 492530 0.011469857052 99.996658822553 6410 21 884 767556 97842804
+381	16628364 180660 2641 492534 0.260629780059 99.996658822553 5884 128 128 753152 96403456
+383	16809024 168892 2641 492534 0.260629780059 99.996658822553 5884 0 0 0 0
+384	16977916 10 0 0 0 0 1 0 0 0 0
+385	16977926 337794 0 492536 0 99.996766822553 11769 0 1 5884 5884
+386	17315720 180660 2642 492535 0.260629780059 99.996658822553 5884 135 135 794340 107235900
+390	17496380 180660 2642 492535 0.260629780059 99.996658822553 5884 128 128 753152 96403456

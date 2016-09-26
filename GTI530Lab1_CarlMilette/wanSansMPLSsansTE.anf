@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/GTI530Lab1_CarlMilette/results/wanSansMPLSsansTE-*.vec"/>
+    <inputs name="/GTI530Lab1_CarlMilette/results/wanSansMPLSsansTE-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="scenario3">
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*staSwitch[0].udpApp[0].udpOut.channel) AND name(*)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*montrealServer.udp.appOut[0].channel) AND name(*)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Scenario3" lineNameFormat="">
+        <properties name="Graph.Title" value="Scenario3"/>
+        <properties name="X.Axis.Title" value="bit/s"/>
+        <properties name="Y.Axis.Title" value="bit/s"/>
+        <properties name="Legend.Display" value="true"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.2"/>
+  </chartSheets>
+</scave:Analysis>

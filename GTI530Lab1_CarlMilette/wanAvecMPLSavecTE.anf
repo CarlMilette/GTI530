@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/GTI530Lab1_CarlMilette/results/wanAvecMPLSavecTE-*.vec"/>
+    <inputs name="/GTI530Lab1_CarlMilette/results/wanAvecMPLSavecTE-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="scenario4">
+      <items xsi:type="scave:Add" filterPattern="module(*.montrealServer.udp.appOut[0].channel)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(*.staSwitch[0].udpApp[0].udpOut.channel)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="" lineNameFormat=""/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.2"/>
+  </chartSheets>
+</scave:Analysis>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fectable>
+	<!--FEC pour sens Vancouver vers Montreal -->
+	<!--La FEC est basée sur la destination avec label = 100 -->
+	<fecentry>
+		<id>1</id>
+		<destination>montrealServer</destination>
+		<label>100</label>
+	</fecentry>
+</fectable>
